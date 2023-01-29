@@ -1,9 +1,7 @@
 .episodes-list-container {
     display: grid;
-    // grid-template-columns: 1fr 1fr 1fr;
     row-gap: 1rem;
-    // grid-template-rows: auto 1fr;
-    // border: 1px solid;
+    margin-top: 2rem;
 
     div {
         border-radius: .5rem;

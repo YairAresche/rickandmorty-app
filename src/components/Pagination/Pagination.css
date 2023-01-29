@@ -2,6 +2,7 @@
   font-size: 2.5rem;
   color: rgb(17, 177, 199);
   line-height: 0;
+  cursor: pointer;
 }
 .button-page span {
   padding: 0 1rem;

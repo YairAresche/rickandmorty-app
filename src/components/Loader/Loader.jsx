@@ -1,8 +1,10 @@
-import React from 'react'
+import { Spinner } from "react-bootstrap"
+
+import './Loader.css'
 
 const Loader = () => {
     return (
-        <div>Loader</div>
+        <div className="loader"> <Spinner /> </div>
     )
 }
 

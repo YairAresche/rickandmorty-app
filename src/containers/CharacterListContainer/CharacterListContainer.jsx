@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap';
 import CharacterList from '../../components/CharacterList/CharacterList';
 import Pagination from '../../components/Pagination/Pagination';
 
 import './CharacterListContainer.css'
-
-// const CharacterListContainer = ({ tittle, characters, handleSelectCharacter, loading, selectedCharacters, page, setPage}) => {
 
 const CharacterListContainer = ({ tittle, handleSelectCharacter, selectedCharacters}) => {
 

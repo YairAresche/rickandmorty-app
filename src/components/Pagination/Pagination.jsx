@@ -6,7 +6,7 @@ const Pagination = ({page, setPage, maxPage}) => {
 
     const handleNext = () => {
         if(page < maxPage){
-            setPage(page + 1) 
+            setPage(page + 1)
         }
     }
     const handlePrev = () => {

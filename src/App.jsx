@@ -1,5 +1,3 @@
-
-
 import { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import CharacterListContainer from './containers/CharacterListContainer/CharacterListContainer';
@@ -55,11 +53,10 @@ function App() {
     <div className="App">
 
       <NavBar />
-      <Container fluid="xxl" className='characters-row'>
 
+      <Container fluid="xxl" className='characters-row'>
         <CharacterListContainer tittle={tittle1} handleSelectCharacter={(character) => handleSelectCharacter(character, 1)} selectedCharacters={selectedCharacters1} />
         <CharacterListContainer tittle={tittle2} handleSelectCharacter={(character) => handleSelectCharacter(character, 2)} selectedCharacters={selectedCharacters2} />
-
       </Container>
 
       {

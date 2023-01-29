@@ -1,4 +1,32 @@
 .episode-list {
   height: 12rem;
   overflow-y: auto;
-}/*# sourceMappingURL=EpisodeList.css.map */
+}
+
+.episode-list::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+.episode-list::-webkit-scrollbar-thumb {
+  background-color: rgb(249, 243, 103);
+  border-radius: 1px;
+}
+
+.episode-list::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(249, 243, 103);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .episode-list::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .episode-list::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+}
+/* X-Large devices (large desktops, 1200px and up) *//*# sourceMappingURL=EpisodeList.css.map */

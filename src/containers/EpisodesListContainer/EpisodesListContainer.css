@@ -1,6 +1,7 @@
 .episodes-list-container {
   display: grid;
   row-gap: 1rem;
+  margin-top: 2rem;
 }
 .episodes-list-container div {
   border-radius: 0.5rem;
