@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: url('/font/Champagne\ &\ Limousines.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Champagne & Limousines", sans-serif;
+}
+
+.App {
+  padding: 1rem 0;
+  background-color: rgba(37, 37, 37, 255);
+  color: rgba(249, 243, 103, 255);
+  min-height: 100vh;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .App {
+    .characters-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .App {
+    .characters-row {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

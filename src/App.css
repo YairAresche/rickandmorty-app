@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Champagne & Limousines";
+  src: url("/font/Champagne & Limousines.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Champagne & Limousines", sans-serif;
+}
+
+.App {
+  padding: 1rem 0;
+  background-color: rgb(37, 37, 37);
+  color: rgb(249, 243, 103);
+  min-height: 100vh;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .App .characters-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .App .characters-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* X-Large devices (large desktops, 1200px and up) *//*# sourceMappingURL=App.css.map */

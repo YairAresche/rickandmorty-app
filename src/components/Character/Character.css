@@ -1,0 +1,35 @@
+div .character-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: rgb(40, 53, 35);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  width: 100%;
+}
+div .character-card img.card-img {
+  width: 6rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+div .character-card .character-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div .character-card .character-card-info .icon-status {
+  position: absolute;
+  line-height: 0;
+  right: 7.5px;
+  top: 10px;
+}
+div .character-card:hover {
+  transform: scale(1.03);
+}
+div .selected {
+  color: rgb(17, 177, 199);
+  background-color: rgba(75, 183, 198, 0.2);
+}/*# sourceMappingURL=Character.css.map */

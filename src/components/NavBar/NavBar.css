@@ -1,0 +1,41 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+.navBar .img-portal img {
+  width: 6rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navBar .img-portal img {
+    width: 8rem;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navBar {
+    margin-bottom: 1.75rem;
+    justify-content: center;
+  }
+  .navBar .img-portal img {
+    width: 8rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navBar {
+    margin-bottom: 2rem;
+  }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navBar .img-portal img {
+    width: 10rem;
+  }
+}/*# sourceMappingURL=NavBar.css.map */
