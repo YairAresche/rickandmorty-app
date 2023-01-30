@@ -1,5 +1,3 @@
-import React from 'react'
-import { Spinner } from 'react-bootstrap';
 import Character from '../Character/Character';
 import Loader from '../Loader/Loader';
 

@@ -5,10 +5,11 @@ import portal from '../../../public/wallpapersden.com_rick-and-morty-portal_572x
 import './NavBar.css'
 
 const NavBar = () => {
+
     return (
         <Container fluid="xl" className="navBar">
             <Logo />
-            <div className="img-portal"><img src={portal} alt="Rick and Morty portal" /></div>
+            <div className="img-portal"><img src={portal} alt={import.meta.env.VITE_NAVBAR} /></div>
         </Container>
     )
 }

@@ -17,11 +17,9 @@ const Pagination = ({page, setPage, maxPage}) => {
 
     return (
         <div className="button-page">
-            {/* <span className="btn-navigate" onClick={handlePrev}> <MdNavigateBefore /> </span> */}
             <MdNavigateBefore className="btn-navigate" onClick={handlePrev} />
             <span className="">{page}</span>
             <MdOutlineNavigateNext className="btn-navigate" onClick={handleNext} />
-            {/* <span className="btn-navigate" onClick={handleNext}> <MdOutlineNavigateNext /> </span> */}
         </div>
     )
 }

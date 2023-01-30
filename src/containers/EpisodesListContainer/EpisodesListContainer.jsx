@@ -1,4 +1,4 @@
-import { Container, Spinner } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import EpisodesList from '../../components/EpisodesList/EpisodesList';
 import Loader from '../../components/Loader/Loader';
 

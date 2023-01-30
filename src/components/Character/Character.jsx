@@ -2,7 +2,6 @@
 import { memo } from 'react'
 import { TbCross } from "react-icons/tb";
 import { BiQuestionMark } from "react-icons/bi";
-import { SiActigraph } from "react-icons/si";
 import { SlEmotsmile } from "react-icons/sl";
 import { Card, CardImg } from 'react-bootstrap'
 

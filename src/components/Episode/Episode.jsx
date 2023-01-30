@@ -1,11 +1,15 @@
+import { memo } from "react"
 
-const Episode = ({ episode }) => {
-
-    return (
-        <>
-            <li>{episode.name}</li>
-        </>
-    )
-}
+const Episode = memo(({ episode }) => {
+    
+        return (
+            <>
+                <li>
+                    {episode.episode} - {episode.name} - {episode.air_date}
+                </li>
+            </>
+        )
+    }
+)
 
 export default Episode

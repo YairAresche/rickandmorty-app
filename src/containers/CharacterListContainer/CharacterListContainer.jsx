@@ -30,7 +30,7 @@ const CharacterListContainer = ({ tittle, handleSelectCharacter, selectedCharact
     return (
         <Container fluid="xxl" className='character-list-container'>
             <h4 className='tittle-main'>{tittle}</h4>
-            <CharacterList characters={characters} handleSelectCharacter={handleSelectCharacter} loading={loading} selectedCharacters={selectedCharacters} />
+            <CharacterList  characters={characters} handleSelectCharacter={handleSelectCharacter} loading={loading} selectedCharacters={selectedCharacters} />
             <Pagination page={page} setPage={setPage} maxPage={maxPage} />
         </Container>
     )
