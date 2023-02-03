@@ -1,13 +1,13 @@
 import { Container } from 'react-bootstrap'
 import EpisodesList from '../../components/EpisodesList/EpisodesList';
-import Loader from '../../components/Loader/Loader';
+import Loader from '../../components/Loader/Loader'; 
 
 import './EpisodesListContainer.css'
 
 const EpisodesListContainer = ({ episodesCharacter1, episodesCharacter2, commonEpisodes, selectedCharacters1, selectedCharacters2, loading }) => {
 
     return (
-        loading ? <Container fluid="xl" className='text-center'> <Loader /> </Container>
+        loading ? <Container fluid="xl" className='text-center position-relative'> <Loader/> </Container>
         :
         <Container fluid="xl" className="episodes-list-container">
             {
